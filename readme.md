@@ -6,6 +6,24 @@ I'm okay with people using burner email addresses to get my free content, I just
 
 Please send a PR with any new ones you find. 
 
+## Install
+
+```shell script
+npm i --save burner-email-providers
+# or
+yarn add burner-email-providers
+``` 
+
+## Usage
+```js
+
+const { isEmailBurner } = require('burner-email-providers');
+
+isEmailBurner('test@gmail.com'); // false
+isEmailBurner('test@10minutemail.com');  // true
+
+```
+
 ## APIs
 
 ### Free

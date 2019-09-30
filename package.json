@@ -1,13 +1,30 @@
 {
-    "private": true,
     "name": "burner-email-providers",
-    "version": "1.0.0-RC",
+    "version": "0.0.0",
     "description": "A list of burner email providers.",
-    "license": "UNLICENSED",
-    "author": "Wes Bos & contributors",
-    "repository": "https://github.com/wesbos/burner-email-providers",
-    "files": [
-        "emails.txt"
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wes Bos & contributors"
+        },
+        {
+            "name": "Findie Development",
+            "email": "dev@findie.me"
+        }
     ],
-    "keywords": [ "email" ]
+    "repository": "https://github.com/findie/burner-email-providers",
+    "keywords": [
+        "burner",
+        "temp",
+        "temporary",
+        "fake",
+        "email",
+        "provider",
+        "providers"
+    ],
+    "main": "index.js",
+    "types": "index.d.ts",
+    "scripts": {
+        "test": "node test.js"
+    }
 }
