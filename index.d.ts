@@ -1,4 +1,4 @@
 
-export const emailBlacklist: Set<string>;
+export const emailBurnerList: Set<string>;
 
-export function isEmailBlocked(email: string): boolean;
+export function isEmailBurner(email: string): boolean;
