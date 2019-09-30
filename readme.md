@@ -42,3 +42,6 @@ isEmailBurner('test@10minutemail.com');  // true
 
 * [DED](https://github.com/namreg/ded)
 
+### NodeJs
+
+* [burner-email-providers](https://github.com/findie/burner-email-providers)
