@@ -45,3 +45,7 @@ isEmailBurner('test@10minutemail.com');  // true
 ### NodeJs
 
 * [burner-email-providers](https://github.com/findie/burner-email-providers)
+
+## Host your own
+
+* [Docker](https://hub.docker.com/r/emailhippo/dea-id-community-api-wesbos-v1)
