@@ -7,9 +7,7 @@ const readContents = (filePath) => fs.readFileSync(filePath)
   .trim()
   .split('\n');
 
-const contents = []
-  .concat(readContents(path.join(__dirname, 'emails.txt')))
-  .concat(readContents(path.join(__dirname, 'emailsUpdate.txt')));
+const contents = readContents(path.join(__dirname, 'emails.txt'));
 
 const emailBurnerList = new Set(contents);
 
