@@ -704,7 +704,6 @@ boxformail.in
 boximail.com
 boxmail.co
 boxtemp.com.br
-brainonfire.net
 brandallday.net
 brasx.org
 bratwurst.dnsabr.com
@@ -2513,6 +2512,7 @@ mailbox72.biz
 mailbox80.biz
 mailbox87.de
 mailbox92.biz
+mailboxok.club
 mailboxy.fun
 mailbucket.org
 mailcat.biz
