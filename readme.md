@@ -46,6 +46,12 @@ isEmailBurner('test@10minutemail.com');  // true
 
 * [burner-email-providers](https://github.com/findie/burner-email-providers)
 
+### PHP
+
+#### Symfony
+
+* [secit-pl/validation-bundle](https://github.com/secit-pl/validation-bundle#burneremail)
+
 ## Host your own
 
 * [Docker](https://hub.docker.com/r/emailhippo/dea-id-community-api-wesbos-v1)
