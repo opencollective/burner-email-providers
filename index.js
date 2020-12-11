@@ -5,7 +5,9 @@ const readContents = (filePath) => fs.readFileSync(filePath)
   .toString()
   .toLowerCase()
   .trim()
-  .split('\n');
+  .split('\n')
+  .map(line => line.trim())
+  .filter(line => !!line);
 
 const contents = readContents(path.join(__dirname, 'emails.txt'));
 
