@@ -40,7 +40,7 @@ isEmailBurner('test@10minutemail.com');  // true
 
 ### Go
 
-* [DED](https://github.com/namreg/ded) (__Reported not working__)
+* [go-burner-email-providers](https://github.com/lindell/go-burner-email-providers)
 
 ### NodeJs
 
